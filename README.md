@@ -17,6 +17,20 @@
 3、了解异常的使用方法，并在程序中根据输入情况做异常处理；<br/>
 ## 四、实验过程<br/>
 ## 五、核心代码<br/>
+老师接口<br/>
+package Interface;<br/>
+public interface teacher {<br/>
+	public void setPay(double pay);<br/>
+	public double getPay();<br/>
+
+}<br/>
+学生接口<br/>
+package Interface;<br/>
+
+public interface student {<br/>
+	public void setFee(double fee);<br/>
+	public double getFee();<br/>
+}<br/>
 ## 六、实验结果<br/>
 小明，男，20岁，年收入：12000，学费：5200，<br/>
 ## 七、实验感想<br/>
